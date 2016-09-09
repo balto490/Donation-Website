@@ -1,13 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 li {
-    float: right;
+    float: left;
+    padding-left: 40px;
 }
 
 li a {
@@ -19,4 +25,88 @@ li a {
     font-family: 'Merriweather', serif; }
 li a:hover {
     background-color: #111;
+}
+/*Donation page*/
+body {
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;
+}
+h3 {
+    padding-left: 30px;
+}
+h2 {
+    color: white;
+    padding-top: 30px;
+}
+.form {
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin: 55px auto;
+    position: relative;
+    font-family: 'Helvetica', serif;
+    overflow: hidden;
+    padding-top:110px;
+    margin-left: 180px;
+    background-color: white;
+    box-shadow:0 0 10px grey;
+}
+.top {
+    width: 400px;
+    height:150px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: #064780;
+}
+
+#one, #two, #three  {
+    width: 23%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px auto;
+    margin-left: 27px;
+    background-image: url(https://d3bql97l1ytoxn.cloudfront.net/app_resources/2025/overview/img5079021098914247368.png);
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px #999;
+}
+ 
+#four {
+    width: 54%;
+    height: 50px;
+    border:2px solid #999;
+    padding-top: 15px;
+    color: grey;
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color: white;
+}
+#last {
+    width: 45%;
+    height: 50px;
+    margin-top: 40px;
+    margin-left:100px;
+    background-color: #064780;
+    border:2px solid #064780;
+    padding-top: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#four, #last {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
 }
