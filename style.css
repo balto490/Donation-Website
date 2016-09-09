@@ -20,3 +20,75 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+img {
+    width: 200px;
+    
+    height: 200px;
+    text-align: center;
+}
+
+
+
+.shop {
+    
+    width: 200px;
+    height:200px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+
+
+
+}
+
+.paragprah{
+    width: 200px;
+}
+.text {
+    position: relative;
+    left:50px;
+    text-align: justify;
+}
+
+.button {border: none;
+color:white;
+padding:15px 80px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+margin-left:  20px;
+cursor: pointer;
+background-color: red;
+float: left;
+clear:both;
+margin-top: 10px;
+
+
+}
+
+#kanye{
+
+    width:1000px;
+    height: 500px;
+    text-align: 400px;
+    margin: auto 0;
+}
+.top {
+    margin-top: 50px;
+
+}
+#header {
+    text-align: center;
+    color:blue;
+    margin-top: 50px;
+}
+
+#head{
+    text-align: center;
+    color:red;
+}
