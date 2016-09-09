@@ -2,11 +2,12 @@ body {
     width: 100%;
     text-transform: uppercase;
     font-family: 'Helvetica', serif; 
+    margin: 0;
 }
 
 /*Nav Bar*/
 
-ul {
+#navbar ul {
     z-index: 1;
     list-style-type: none;
     position: fixed;
@@ -17,13 +18,13 @@ ul {
     background-color: rgba(255,255,255,0.5);
 }
 
-li {
+#navbar li {
     float: left;
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 30px 25px;
     text-decoration: none;
@@ -33,8 +34,8 @@ li a {
 #kanyehead {
     width: 100px;
     position: fixed;
-    left: 15px;
-    top: 3px;
+    left: 11px;
+    top: -4px;
     z-index: 2;
 }
 
@@ -42,7 +43,7 @@ li a {
     position: fixed;
     z-index: 2;
     left: 1000px;
-    top: 20px;
+    top: 11px;
     color: white;
 }
 
@@ -50,7 +51,7 @@ li a {
     position: fixed;
     z-index: 3;
     left: 1050px;
-    top: -10px;
+    top: -20px;
     width: 200px;
 }
 
@@ -188,11 +189,38 @@ li a {
     animation-duration: 2s;
 }
 
-/*#white {
+#white {
     height: 1100px;
     width: 100%;
     background-color: #fff2e6;
 }
-*/
+
+#kanyeangry {
+    position: absolute;
+    width: 350px;
+    top: 760px;
+    left: 790px;
+}
+
+#kanyewords h1 {
+    margin-left: 200px;
+    width: 300px;
+    position: absolute;
+    top: 800px;
+}
+
+#kanyepoints {
+    position: absolute;
+    top: 750px;
+    left: 160px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+#kanyepoints li {
+    list-style-image: url(images/kanyeheadcopy.png);
+
+}
 
 
+list-style-ima
