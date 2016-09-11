@@ -1,34 +1,69 @@
-* {
+
+/** {
     box-sizing: border-box;
+}*/
+
+/*ul {*/
+
+body {
+    width: 100%;
+    font-family: 'Helvetica', serif; 
+    margin: 0;
+    text-transform: uppercase;
 }
 
-ul {
+.storebackground {
+    background-color: #fff2e6;
+}
+
+.donatebackground {
+    background-color: #fff2e6;
+}
+
+/*Nav Bar*/
+/*.transform {
+    text-transform: uppercase;
+    font-family: 'Helvetica', serif; 
+}*/
+
+#navbar ul {
+    z-index: 1;
     list-style-type: none;
+    position: fixed;
+    padding-left: 100px;
+    width: 100%;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(255,255,255,0.5);
+    /*background-color: #333;
 
 }
 
 li {
     float: left;
-    padding-left: 40px;
+    padding-left: 40px;*/
+    
+}
+
+#navbar li {
+    float: left;
+
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 25px;
     text-decoration: none;
-    font-family: 'Merriweather', serif; 
+
+    /*font-family: 'Merriweather', serif; 
 }
 li a:hover {
     background-color: #111;
-}
+}*/
 /*Donation page*/
-body, #main {
+/*body, #main {
     width: 100%;
     height: auto;
     margin: 0;
@@ -36,7 +71,297 @@ body, #main {
 h3 {
     padding-left: 30px;
 }
-h2 {
+h2 {*/
+    font-size: 30px;
+}
+
+#kanyehead {
+    width: 100px;
+    position: fixed;
+    left: 11px;
+    top: -4px;
+    z-index: 2;
+}
+
+#voteheader {
+    position: fixed;
+    z-index: 2;
+    left: 1000px;
+    top: 11px;
+    color: white;
+}
+
+#yeezy {
+    position: fixed;
+    z-index: 3;
+    left: 1050px;
+    top: -20px;
+    width: 200px;
+}
+
+#kanyehead:hover {
+    animation-name: headshake;
+    animation-duration: 2s;
+}
+
+#home:hover {
+    color: black;
+    text-decoration: none;
+    animation-name: transition;
+    animation-name: grow;
+    animation-duration: 1s;
+}
+
+#store:hover {
+    color: black;
+    text-decoration: none;
+    animation-name: transition;
+    animation-name: grow;
+    animation-duration: 1s;
+}
+
+/*#donate:hover {
+    color: black;
+    text-decoration: none;
+    font-family: 'Merriweather', serif; }*/
+li a:hover {
+/*    background-color: #111;*/
+     animation-name: transition;
+    animation-name: grow;
+    animation-duration: 1s;
+}
+
+
+.img {
+    width: 200px;
+    
+    height: 200px;
+    text-align: center;
+}
+
+
+
+.shop {
+    
+    width: 200px;
+    height:200px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 100px;
+    position:relative;
+    left: 13.0%;
+    
+}
+
+.paragraph{
+    width: 200px;
+    margin-left: 35px;
+    color: #fb9084;
+
+}
+.text {
+    
+    position: absolute;
+    top: 120%;
+    margin-bottom: 100px; }
+
+#shirts {
+ color: grey;
+ margin-top:  80px;
+ text-align: center;
+ font-size: 50px;
+ position: relative;
+ top:120px;
+
+} 
+   
+#kanye{
+
+    width:100%;
+    height: 500px;
+    text-align: 400px;
+    margin: auto 0;
+}
+.atop {
+    margin-top: 200px;
+    position:relative;
+}
+
+.atop:hover{
+    border-bottom: 4px solid #80aaff;
+}
+
+#header {
+    text-align: center;
+    color:#80aaff;
+    margin-top: 160px;
+    font-size: 40px;
+}
+
+#head{
+    margin-top: 90px;
+    text-align: center;
+    color:#fb9084;
+    font-size: 40px;
+}
+
+@keyframes headshake {
+    0% {
+        transform: rotate(0deg);
+         -webkit-transform: rotate(0deg)
+    }
+    15% {
+        transform: rotate(15deg);
+         -webkit-transform: rotate(15deg)
+    }
+    30% {
+        transform: rotate(-15deg);
+         -webkit-transform: rotate(-15deg)
+    }
+    45% {
+        transform: rotate(15deg);
+         -webkit-transform: rotate(15deg)
+    }
+    
+    60% {
+        transform: rotate(-15deg);
+         -webkit-transform: rotate(-15deg)
+    }
+    75% {
+        transform: rotate(15deg);
+         -webkit-transform: rotate(15deg)
+    }
+    90% {
+        transform: rotate(-15deg);
+         -webkit-transform: rotate(-15deg)
+    }
+    100% {
+        transform: rotate(0deg);
+         -webkit-transform: rotate(0deg)
+    }
+}
+
+@keyframes transition {
+    0% {
+        color: black;
+    }
+    100% {
+        color: black;
+    }
+}
+
+@keyframes grow {
+    0% {
+        font-size: 28px;
+    }
+    100% {
+        font-size: 30px;
+    }
+}
+
+#blue {
+    width: 100%;
+    height: 370px;
+    background-color: #80aaff;
+    position: relative;
+}
+
+#blue h1 {
+    font-size: 100px;
+    top: 120px;
+    left: 140px;
+    position: absolute;
+}
+
+#hillaryhead {
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    width: 200px;
+}
+
+#hillaryhead:hover {
+    animation-name: headshake;
+    animation-duration: 2s;
+}
+
+#red {
+    width: 100%;
+    height: 280px;
+    background-color: #fb9084;
+}
+
+#red h1 {
+    font-size: 100px;
+    top: 400px;
+    left: 300px;
+    position: absolute;
+}
+
+#trumphead {
+    position: absolute;
+    left: 80px;
+    top: 420px;
+    width: 200px;
+}
+
+#trumphead:hover {
+    animation-name: headshake;
+    animation-duration: 2s;
+}
+
+#white {
+    height: 1100px;
+    width: 100%;
+    background-color: #fff2e6;
+}
+
+#kanyeangry {
+    position: absolute;
+    width: 350px;
+    top: 760px;
+    left: 790px;
+}
+
+#kanyewords h1 {
+    margin-left: 200px;
+    width: 300px;
+    position: absolute;
+    top: 800px;
+}
+
+#kanyepoints {
+    position: absolute;
+    top: 750px;
+    left: 160px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+#kanyepoints li {
+    list-style-image: url(images/kanyeheadcopy.png);
+
+}
+
+#kanyevideo {
+    position: relative;
+    top: 700px;
+    left: 300px;
+}
+
+
+
+.cheatsheet {
+    color: #80aaff;
+    margin-left: 35px;
+}
+
+
+#hthree {
+    padding-left: 30px;
+}
+ #htwo{
+
     color: white;
     padding-top: 30px;
 }
@@ -46,7 +371,11 @@ h2 {
     display: inline-block;
     margin: 55px auto;
     position: relative;
-    font-family: 'Helvetica', serif;
+
+    /*font-family: 'Helvetica', serif;*/
+
+    /*font-family: 'Helvetica', serif;*/
+
     overflow: hidden;
     padding-top:110px;
     margin-left: 180px;
@@ -61,7 +390,11 @@ h2 {
     top: 0px;
     right: 0px;
     text-align: center;
-    background-color: #064780;
+
+    /*background-color: #064780;*/
+
+    background-color: #80aaff;
+
 }
 
 #one, #two, #three  {
@@ -73,7 +406,11 @@ h2 {
     margin: 10px auto;
     margin-left: 27px;
     background-image: url(https://d3bql97l1ytoxn.cloudfront.net/app_resources/2025/overview/img5079021098914247368.png);
-    color: white;
+
+    /*color: white;*/
+
+    color: black;
+
     text-transform: uppercase;
     font-size: 15px;
     text-align: center;
@@ -97,7 +434,11 @@ h2 {
     height: 50px;
     margin-top: 40px;
     margin-left:100px;
-    background-color: #064780;
+
+    /*background-color: #064780;*/
+
+    background-color: #80aaff;
+
     border:2px solid #064780;
     padding-top: 15px;
     color: white;
@@ -116,7 +457,11 @@ input {
     height: 46px;
     margin-top: 0;
     font-size: 20px;
-    font-family: 'Helvetica', serif;
+
+    /*font-family: 'Helvetica', serif;*/
+
+   /* font-family: 'Helvetica', serif;*/
+
     color: grey;
     font-style: italic;
 
@@ -129,7 +474,8 @@ input {
 footer {
     width: 100%;
     height: 50px;
-    background-color: #333;
+
+    /*background-color: #333;
     text-align: center;
     font-family: 'Merriweather', serif;
     margin: 0;
@@ -137,5 +483,30 @@ footer {
     color: white;
 }
 #main {
+    background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;*/
+
+    background-color: #fb9084;
+    text-align: center;
+   /* font-family: 'Merriweather', serif;*/
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    clear:both;
+}
+#main {
     background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;
+}
+#foot {
+        position: relative;
+        top:250px;
+        width: 100%;
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    /*font-family: 'Merriweather', serif;*/
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    
+
 }
