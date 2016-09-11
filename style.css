@@ -143,7 +143,10 @@ li a:hover {
    
     
 
-
+#linear {
+    
+     background: linear-gradient(to right, grey , white);
+}
 
 
 #kanye{
@@ -169,6 +172,7 @@ li a:hover {
     color:blue;
     margin-top: 160px;
     font-size: 40px;
+    font-family: 'Bree Serif', serif;
 }
 
 #head{
@@ -176,6 +180,7 @@ li a:hover {
     text-align: center;
     color:red;
     font-size: 40px;
+    font-family: 'Bree Serif', serif;
 }
 
 
@@ -323,6 +328,8 @@ li a:hover {
 .cheatsheet {
 
     margin-left: 35px;
+    font-family: 'Bree Serif', serif;
+    color:red;
 }
 
 
