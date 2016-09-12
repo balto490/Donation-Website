@@ -335,7 +335,7 @@ li a:hover {
     width: 30%;
     height: 450px;
     display: inline-block;
-    margin: 55px auto;
+    margin: 80px auto;
     position: relative;
     overflow: hidden;
     padding-top:110px;
@@ -423,6 +423,7 @@ input {
 footer {
     width: 100%;
     height: 50px;
+
     /*background-color: #333;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -437,11 +438,13 @@ footer {
    /* font-family: 'Merriweather', serif;*/
     margin: 0;
     padding-top: 10px;
+    padding-bottom: 0px;
     color: white;
     clear:both;
+
 }
 #main {
-    padding-bottom: 30px;
+
     background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;
 }
 #foot {
