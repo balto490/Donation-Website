@@ -1,14 +1,29 @@
+
 body {
     width: 100%;
-    
+    font-family: 'Helvetica', serif; 
     margin: 0;
+    text-transform: uppercase;
+    padding-bottom:100px;
+   
+    
+
+}
+
+html {
+     background-color: #fff2e6;
+}
+
+.storebackground {
+    background-color: #fff2e6;
+   
+}
+
+.donatebackground {
+    background-color: #fff2e6;
 }
 
 /*Nav Bar*/
-.transform {
-    text-transform: uppercase;
-    font-family: 'Helvetica', serif; 
-}
 
 #navbar ul {
     z-index: 1;
@@ -19,6 +34,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: rgba(255,255,255,0.5);
+    
 }
 
 #navbar li {
@@ -79,12 +95,12 @@ li a {
     animation-duration: 1s;
 }
 
-#donate:hover {
+/*#donate:hover {
     color: black;
     text-decoration: none;
-    font-family: 'Merriweather', serif; }
+    font-family: 'Merriweather', serif; }*/
 li a:hover {
-    background-color: #111;
+/*    background-color: #111;*/
      animation-name: transition;
     animation-name: grow;
     animation-duration: 1s;
@@ -109,26 +125,29 @@ li a:hover {
     margin-left: 100px;
     position:relative;
     left: 13.0%;
+    padding-bottom: 20px;
     
 }
-
-
-
-
-
 
 .paragraph{
     width: 200px;
     margin-left: 35px;
+    color: #fb9084;
+    color:grey;
+    text-transform: capitalize;
+    font-family: 'PT Sans Narrow', sans-serif;
+    overflow: hidden;
+
+
 
 }
 .text {
     
     position: absolute;
     top: 120%;
-    margin-bottom: 100px; }
-
-  
+    margin-bottom: 100px; 
+    overflow: hidden;
+    }
 
 #shirts {
  color: grey;
@@ -140,13 +159,10 @@ li a:hover {
 
 } 
    
+
    
     
 
-#linear {
-    
-     background: linear-gradient(to right, grey , white);
-}
 
 
 #kanye{
@@ -159,17 +175,15 @@ li a:hover {
 .atop {
     margin-top: 200px;
     position:relative;
-   
-    
 }
 
 .atop:hover{
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid #80aaff;
 }
 
 #header {
     text-align: center;
-    color:blue;
+    color:#80aaff;
     margin-top: 160px;
     font-size: 40px;
     font-family: 'Bree Serif', serif;
@@ -178,12 +192,10 @@ li a:hover {
 #head{
     margin-top: 90px;
     text-align: center;
-    color:red;
+    color:#fb9084;
     font-size: 40px;
     font-family: 'Bree Serif', serif;
 }
-
-
 
 @keyframes headshake {
     0% {
@@ -323,10 +335,16 @@ li a:hover {
 
 }
 
+#kanyevideo {
+    position: relative;
+    top: 700px;
+    left: 300px;
+}
+
 
 
 .cheatsheet {
-
+    color: #80aaff;
     margin-left: 35px;
     font-family: 'Bree Serif', serif;
     color:red;
@@ -337,21 +355,24 @@ li a:hover {
     padding-left: 30px;
 }
  #htwo{
+
     color: white;
     padding-top: 30px;
 }
 .form {
     width: 30%;
-    height: 500px;
+    height: 450px;
     display: inline-block;
-    margin: 55px auto;
+    margin: 80px auto;
     position: relative;
-    font-family: 'Helvetica', serif;
     overflow: hidden;
     padding-top:110px;
     margin-left: 180px;
+    margin-top: 150px;
     background-color: white;
     box-shadow:0 0 10px grey;
+    right:500px;
+
 }
 .top {
     width: 100%;
@@ -361,21 +382,22 @@ li a:hover {
     top: 0px;
     right: 0px;
     text-align: center;
-    background-color: #064780;
+    background-color: #80aaff;
+
 }
 
 #one, #two, #three  {
     width: 23%;
-    height: 50px;
+    height: 40px;
     border: 2px solid white;
     border-radius: 5px;
     display: inline-block;
     margin: 10px auto;
-    margin-left: 27px;
-    background-image: url(https://d3bql97l1ytoxn.cloudfront.net/app_resources/2025/overview/img5079021098914247368.png);
-    color: white;
+    margin-left: 23px;
+    background-color: #999;
+    color: black;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding-top: 15px;
     font-weight: bold;
@@ -394,11 +416,11 @@ li a:hover {
 }
 #last {
     width: 45%;
-    height: 50px;
+    height: 40px;
     margin-top: 40px;
     margin-left:100px;
-    background-color: #064780;
-    border:2px solid #064780;
+    background-color: #80aaff;
+    border:2px solid #80aaff;
     padding-top: 15px;
     color: white;
     border-radius: 5px;
@@ -412,42 +434,59 @@ li a:hover {
 }
 
 input {
-    width: 100%;
-    height: 46px;
+    width: 97%;
+    height: 44px;
     margin-top: 0;
     font-size: 20px;
-    font-family: 'Helvetica', serif;
     color: grey;
     font-style: italic;
 
 }
 #one:hover, #two:hover, #three:hover, #last:hover {
-    background-image: url(button.jpeg);
+    
+    background-color: #fb9084;
+    border-color: #fb9084;
+    color: white;
     transition: All 0.5s ease;
 
 }
 footer {
     width: 100%;
     height: 50px;
-    background-color: #333;
+    background-color: #fb9084;
+   
     text-align: center;
     font-family: 'Merriweather', serif;
     margin: 0;
     padding-top: 10px;
     color: white;
-    clear:both;
+    position: relative;
+    top:150px;
 }
 #main {
+    background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;*/
+    background-color: #fb9084;
+    text-align: center;
+   /* font-family: 'Merriweather', serif;*/
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: white;
+    clear:both;
+
+}
+#main {
+
     background:url(http://www.popologynow.com/wp-content/uploads/2015/03/kanye-west-talks-creativity-and-genius-in-gq-cover-shoot-directors-cut-01.jpg) center center no-repeat;
 }
 #foot {
-        position: relative;
-        top:250px;
-        width: 100%;
+    position: relative;
+    top:250px;
+    width: 100%;
     height: 50px;
-    background-color: #333;
+    background-color: #fb9084;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
     margin: 0;
     padding-top: 10px;
     color: white;
